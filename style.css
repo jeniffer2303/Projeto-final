@@ -1,55 +1,59 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #333;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
 header {
-    background-color: #4a90e2;
-    color: white;
+    background-color: #ffccf2; /* Rosa claro */
     padding: 20px;
     text-align: center;
 }
 
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #ff66b2; /* Rosa para o título */
+}
+
+nav {
+    background-color: #e6e6ff; /* Lilás */
+    padding: 10px;
+}
+
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
-nav ul li {
+nav li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: white;
+nav a {
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff66b2; /* Rosa mais escuro para hover */
 }
 
 section {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 20px 0;
-    padding: 15px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 h2 {
-    color: #4a90e2;
+    font-family: 'Pacifico', cursive;
+    color: #ff66b2; /* Rosa para os títulos */
 }
 
-.imagem {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.8em;
-    color: #777;
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    margin: 10px 0;
 }
